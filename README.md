@@ -63,6 +63,30 @@ Evaluate the model's performance
 Generate visualizations of results
 Make predictions on specific test images
 
+R Implementation
+The R implementation uses the same 6-layer CNN architecture as the Python version, built with Keras and TensorFlow packages for R.
+Files
 
+fashion_mnist_cnn.R: Main R script using Keras and TensorFlow
+fashion_mnist_cnn_model_r.h5: Saved model trained in R
+confusion_matrix_r.png: Confusion matrix from the R implementation
+training_history_r.png: Training progress visualization in R
+specific_prediction_r_42.png & specific_prediction_r_123.png: Example predictions in R
+
+Results
+The R implementation achieves 91.55% accuracy on the test set.
+Requirements
+
+R 4.0+
+keras
+tensorflow
+tidyverse
+ggplot2
+lattice
+
+How to Run
+Open the R script in RStudio and run it using the Source button or by pressing Ctrl+Shift+S.
+Summary
+This repository provides a complete implementation of Fashion MNIST classification using CNNs in both Python and R, demonstrating the effectiveness of the same architecture across different programming environments. Both implementations achieve high accuracy in the classification task, showcasing the power of CNNs for computer vision tasks.
 Anulika Blessing Ekwuno
 15th May, 2025
